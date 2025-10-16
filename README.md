@@ -25,8 +25,8 @@ classDiagram
         + void insegna()
     }
 
-    Persona <|-- Studente : eredita
-    Persona <|-- Insegnante : eredita
+    Persona <|-- Studente : Eredita
+    Persona <|-- Insegnante : Eredita
 
     note for Persona "Classe base astratta che rappresenta una persona nella scuola"
     note for Studente "Ogni studente ha una matricola univoca"
